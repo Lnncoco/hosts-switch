@@ -1,0 +1,29 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+html,
+body,
+nav,
+nav ul {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background-color: #eef0f5;
+}
+
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="HostsSwitch" libEmbed="true" icon="app.ico" ui="win" output="HostsSwitch.exe" CompanyName="LnnCoCo" FileDescription="HostsSwitch" LegalCopyright="Copyright (C) LnnCoCo 2020" ProductName="HostsSwitch" InternalName="HostsSwitch" FileVersion="1.0.0.0" ProductVersion="1.0.0.0" publishDir="\dist\" dstrip="false" local="false">
+	<file name="main.aardio" path="main.aardio" comment="main.aardio"/>
+	<folder name="web" path="web" comment="web" local="false" embed="true">
+		<file name="addition.75f59799.svg" path="web\addition.75f59799.svg" comment="web\addition.75f59799.svg"/>
+		<file name="download.779c3df5.svg" path="web\download.779c3df5.svg" comment="web\download.779c3df5.svg"/>
+		<file name="edit.e5e6ea37.svg" path="web\edit.e5e6ea37.svg" comment="web\edit.e5e6ea37.svg"/>
+		<file name="favicon.da3735d5.png" path="web\favicon.da3735d5.png" comment="web\favicon.da3735d5.png"/>
+		<file name="home.3a7af05d.svg" path="web\home.3a7af05d.svg" comment="web\home.3a7af05d.svg"/>
+		<file name="index.aardio" path="web\index.aardio" comment="web\index.aardio"/>
+		<file name="lock.623ff62a.svg" path="web\lock.623ff62a.svg" comment="web\lock.623ff62a.svg"/>
+		<file name="main.2a31e670.js" path="web\main.2a31e670.js" comment="web\main.2a31e670.js"/>
+		<file name="main.a46e3e18.css" path="web\main.a46e3e18.css" comment="web\main.a46e3e18.css"/>
+		<file name="record.56e10638.svg" path="web\record.56e10638.svg" comment="web\record.56e10638.svg"/>
+		<file name="recordFind.08a261bc.svg" path="web\recordFind.08a261bc.svg" comment="web\recordFind.08a261bc.svg"/>
+		<file name="refresh.0b748f9a.svg" path="web\refresh.0b748f9a.svg" comment="web\refresh.0b748f9a.svg"/>
+		<file name="save.8ed52c9e.svg" path="web\save.8ed52c9e.svg" comment="web\save.8ed52c9e.svg"/>
+		<file name="subtraction.600c820b.svg" path="web\subtraction.600c820b.svg" comment="web\subtraction.600c820b.svg"/>
+		<file name="unlock.6ef52b3f.svg" path="web\unlock.6ef52b3f.svg" comment="web\unlock.6ef52b3f.svg"/>
+	</folder>
+</project>

@@ -1,0 +1,43 @@
+/* 控制Input大小 */
+body {
+  input.ui-input,
+  .ui-input > input {
+    height: 30px;
+  }
+}
+
+/* 控制Button大小 */
+body {
+  .ui-button {
+    min-width: 65px;
+    line-height: 10px;
+  }
+  input.ui-button,
+  button.ui-button {
+    height: 30px;
+  }
+}
+
+/* 控制switch大小 */
+.container {
+  .ui-switch {
+    width: 26px;
+    height: 16px;
+  }
+  :checked + .ui-switch::before {
+    margin-left: 10px;
+  }
+  .ui-switch::before {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* 控制lightip大小 */
+body {
+  .ui-lightip {
+    width: 20em;
+    padding: 10px 1em;
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,69 @@
+/* hosts theme for codemirror */
+
+/* Color scheme */
+
+.cm-s-hosts.CodeMirror {
+  background-color: #ffffff;
+  color: #2e383c;
+  line-height: 1.4375;
+}
+.cm-s-hosts .cm-comment {
+  color: #75787b;
+}
+.cm-s-hosts .cm-keyword,
+.cm-s-hosts .cm-property {
+  color: #1d75b3;
+}
+.cm-s-hosts .cm-atom,
+.cm-s-hosts .cm-number {
+  color: #1d39c4c4;
+}
+.cm-s-hosts .cm-node,
+.cm-s-hosts .cm-tag {
+  color: #9c3328;
+}
+.cm-s-hosts .cm-string {
+  color: #b35e14;
+}
+.cm-s-hosts .cm-variable,
+.cm-s-hosts .cm-qualifier {
+  color: #047d65d3;
+}
+
+/* Editor styling */
+
+.cm-s-hosts pre {
+  padding: 0;
+}
+
+.cm-s-hosts .CodeMirror-gutters {
+  border: none;
+  border-right: 10px solid transparent;
+  background-color: transparent;
+}
+
+.cm-s-hosts .CodeMirror-linenumber {
+  padding: 0;
+  color: #e0e2e5;
+}
+
+.cm-s-hosts .CodeMirror-guttermarker {
+  color: #1d75b3;
+}
+.cm-s-hosts .CodeMirror-guttermarker-subtle {
+  color: #e0e2e5;
+}
+
+.cm-s-hosts .CodeMirror-cursor {
+  width: 1px;
+  border: 0;
+  background: rgba(155, 157, 162, 0.6);
+  z-index: 1;
+}
+
+.cm-s-hosts .CodeMirror-activeline-background {
+  background: rgb(232, 242, 255, 0.5);
+}
+.cm-s-hosts div.CodeMirror-selected {
+  background: rgb(232, 242, 255, 0.8);
+}
